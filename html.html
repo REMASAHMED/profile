@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- heading -->
+        <div class="contaner-of-litining-bots">
+            <div class="lightone"></div>
+            <div class="lighttwo"></div>
+            <div class="lightthree"></div>
+            <div class="lightfour"></div>
+            <div class="lightfive"></div>
+            <div class="lightsix"></div>
+        </div>
+        <ul class="navigation">
+            <li class="active">
+                <a href="#home">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#profile">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">Portofolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="#massage">
+                    <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                    <span class="text">Massages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#photos">
+                    <span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+                    <span class="text">Photos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Setting</span>
+                </a>
+            </li>
+        </ul>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            let list = document.querySelectorAll('.navigation li')
+            function activelink() {
+                list.forEach((item) => 
+                item.classList.remove('active'))
+                this.classList.add('active')
+            }
+            list.forEach((item) => 
+            item.addEventListener('click' , activelink))
+        </script>
+        <div class="logo"><span>my</span>  profile</div>
+        <!-- body from left -->
+        <section id="home">
+            <span id="one" class="material-symbols-outlined">
+                favorite
+                </span>
+            <span id="two" class="material-symbols-outlined">
+                settings
+                </span>
+            <span id="three" class="material-symbols-outlined">
+                search
+                </span>
+            <!-- body -->
+            <h2 data-text="welcome...">welcome...</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa saepe quia obcaecati rerum facere atque, dolore assumenda a odit ea ipsam aperiam et inventore ad natus quibusdam aliquam error modi optio nam, eveniet illum asperiores! Beatae nam porro eligendi ipsa.
+            </p>
+            <div class="div">click her</div>
+        </section>
+        <!-- finished -->
+        <div class="div2">thank you for readidng created by <span class="ttwo"> remas ahmed </span></div>
+        <!-- next -->
+        <section id="profile">
+            <img class="img" src="../photos/vadim-bogulov-krgb_3HIkME-unsplash.jpg" alt="">
+            <div class="lorems">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iure quae rem ipsum fuga quidem, itaque dolorum. Sequi, mollitia cum? Quis, deserunt, quod dolores commodi eos officiis consequatur dolorem a veritatis exercitationem velit placeat sed quibusdam tenetur cum neque earum.</div>
+        </section>
+        <!-- background disigen -->
+        <span id="a" class="material-symbols-outlined">
+            radio_button_unchecked
+            </span>
+            <span id="b" class="material-symbols-outlined">
+                change_history
+                </span>
+                <span id="c" class="material-symbols-outlined">
+                    crop_square
+                    </span>
+                    <span id="d" class="material-symbols-outlined">
+                        workspaces
+                        </span>
+                        <span id="f" class="material-symbols-outlined">
+                            workspaces
+                            </span>
+                            <span id="g" class="material-symbols-outlined">
+                                favorite
+                                </span>
+                                <span id="h" class="material-symbols-outlined">
+                                    favorite
+                                    </span>
+        <!-- nothing -->
+        <div class="dod"></div>
+        <!-- massedges -->
+        <section id="massage">
+            <div class="contanerone">
+                <span id="phone" class="material-symbols-outlined">
+                    phone_in_talk
+                    </span>
+                <div class="div3">call me</div>
+                <div class="number">+02 01207014685</div>
+                <ion-icon class="video" name="videocam-outline"></ion-icon>
+                <div class="div3">send to me</div>
+                <div class="number">remas@gmail.com</div>
+                <ion-icon class="chat" name="chatbox-ellipses-outline"></ion-icon>
+                <div class="div3">chat with me</div>
+                <div class="number">bosbos123</div>
+                <div class="straght-line"></div>
+            </div>
+        </section>
+        <!-- photos -->
+        <section id="photos">
+            <div class="contaner1">
+                <p class="lolo">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <div class="divcont1">click her</div>
+            </div>
+        </section>
+    </body>
+</html>
